@@ -1,0 +1,16 @@
+About Ownership
+
+    A principal funcionalidade do Rust é o "Ownership", que mesmo sendo bastante
+    autoexplicativo e direto, isto tem inplicações profundas no resto da linguagem.
+
+    O Ownership ("propriedade" para tradução literal) é um sistema com uma série de
+    o compilador checa no tempo de compilação. Todo a memória é administrada por
+    este sistema.
+
+    Stack e Heap são partes da memória que estão disponíveis para seu código usar no
+    tempo de execução ("runtime").
+
+    Regras do Ownership
+
+        > Cada valor no Rust tem uma variável que é chamada pelo seu "owner".
+        > 
